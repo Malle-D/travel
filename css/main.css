@@ -711,7 +711,7 @@ body{
    box-shadow: 0px 10px 25px rgba(215, 190, 190, 0.2);
    padding: 20px 35px;
 }
-.status__box{
+.status{
    margin-right: 20px;
 }
 
@@ -878,10 +878,10 @@ body{
    white-space: nowrap;
    width: 1px;
 }
-.input:checked ~ .input__border{
+.c-input:checked ~ .input__border{
    border: 2px solid #FF715B;
 }
-.input:checked ~ .input__border > .input__controller{
+.c-input:checked ~ .input__border > .input__controller{
    background-color: #FF715B;
 }
 .input__border{
